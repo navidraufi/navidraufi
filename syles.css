@@ -1,0 +1,280 @@
+html {
+  font-size: 0.625rem;
+}
+body {
+  font-family: "Merriweather", Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+div.top_container {
+  background-color: #eaf6f6;
+  padding-top: 40px;
+  position: relative;
+  overflow: hidden;
+  height: 69rem;
+}
+div.middle_container {
+  height: 100%;
+}
+.cloud {
+  display: inline-block;
+  position: absolute;
+  height: 60px;
+  width: 170px;
+}
+.top {
+  top: 8rem;
+  right: 35rem;
+}
+.buttom {
+  left: 30rem;
+  top: 32rem;
+}
+
+.middle {
+  width: 70%;
+  display: inline-block;
+  padding: 2rem;
+}
+h1.name {
+  font-family: "Sacramento", Arial, Helvetica, sans-serif;
+  font-size: 9rem;
+  margin: 0;
+  margin-top: 10rem;
+}
+
+.mountain {
+  height: 50rem;
+  width: 70rem;
+}
+h2.name {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+img.profile {
+  margin-top: 20rem;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+div.skill {
+  text-align: left;
+  display: inline-block;
+}
+
+img {
+  height: 30%;
+  width: 30%;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: #66bfbf;
+}
+
+p {
+  line-height: 1.5;
+  color: #40514e;
+}
+.bio {
+  margin: 3rem auto;
+  width: 50rem;
+}
+
+.code {
+  float: left;
+  margin: 0 2rem 1rem 0;
+}
+
+h3.design {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.design {
+  margin: 0;
+}
+div.skill {
+  margin-top: 3rem;
+}
+
+div.skill1,
+div.skill2 {
+  margin: 10rem auto;
+}
+
+div.skill2 {
+  margin-top: 20rem;
+}
+
+.phot {
+  float: right;
+  height: 220px;
+}
+
+.contact {
+  margin: 5rem 0;
+}
+
+.btn {
+  height: 5rem;
+  width: 20rem;
+  margin: 4rem 0 10rem;
+  border-radius: 3rem;
+  outline: 0;
+  background: linear-gradient(#11cdd4, #11999e);
+  border: none;
+  font-size: 2rem;
+  color: #eaf6f6;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.ftext {
+  display: inline;
+  margin: 10rem 3rem 2rem 3rem;
+  color: white;
+  transition: 0.3s;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.footer {
+  background-color: #66bfbf;
+  margin: 0;
+  padding: 3rem;
+  transition: 0.3s;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.copy {
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 2.5rem;
+  color: #eaf6f6;
+}
+
+hr {
+  border: none;
+  border-top: dotted;
+  border-width: 8px;
+  border-color: #eaf6f6;
+  margin: 150px auto 150px auto;
+  width: 7%;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+  img {
+    display: block;
+  }
+  .top_container {
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    padding-top: 50rem;
+  }
+  .cloud {
+    display: none;
+  }
+  .mountain {
+    visibility: hidden;
+  }
+  hr {
+    width: 75px;
+  }
+  .code {
+    width: 100%;
+    margin-bottom: 7rem;
+    display: inline-block;
+  }
+  .phot {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 8rem;
+    align-self: center;
+  }
+  .profile {
+    display: inline-block;
+    margin-bottom: 8rem;
+  }
+  .bio {
+    width: fit-content;
+  }
+  div.skill {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 360) {
+  body {
+    text-align: center;
+  }
+  img {
+    display: block;
+  }
+  .top_container {
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    padding-top: 50rem;
+  }
+  .cloud {
+    display: none;
+  }
+  .mountain {
+    visibility: hidden;
+  }
+  hr {
+    width: 75px;
+  }
+  .code {
+    width: 100%;
+    margin-bottom: 7rem;
+    display: inline-block;
+  }
+  .phot {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 8rem;
+    align-self: center;
+  }
+  .profile {
+    display: inline-block;
+    margin-bottom: 8rem;
+  }
+  .bio {
+    width: fit-content;
+  }
+  div.skill {
+    text-align: center;
+  }
+
+  h1.name {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
